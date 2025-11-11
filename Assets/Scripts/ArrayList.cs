@@ -10,6 +10,8 @@ public class ArrayList : MonoBehaviour
        // Start is called once before the first execution of Update after the MonoBehaviour is created
    void Start()
     {
+        Player newplayer = new Player("Tono", 5, 100);
+        ListPlayer.Add(newplayer);
         Player player = ListPlayer.Find(element => element.Level > 15);
         Debug.Log(player.Name);
 

@@ -804,13 +804,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1403709470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 769f11d19dad15b448945067826f59ab, type: 3}
+  m_Script: {fileID: 11500000, guid: b5bd9926780a62a4481e2ce6004ac864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ArrayNama:
-  - Asep
-  - Tono
-  - Budi
+  ListPlayer:
+  - Name: ANI
+    Level: 13
+    Health: 900
+  - Name: ITU
+    Level: 16
+    Health: 1500
+  - Name: SANA
+    Level: 15
+    Health: 5000
 --- !u!1 &1722676346
 GameObject:
   m_ObjectHideFlags: 0
