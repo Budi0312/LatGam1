@@ -10,7 +10,8 @@ public class Score : MonoBehaviour
     private void OnEnable()
     {
         //tanda += yang mau Listen
-        objectDeteksiInput.inputEvent += AddScore;
+        //objectDeteksiInput.inputEvent += AddScore;
+        //objectDeteksiInput.inputEvent.AddListener(AddScore); //jika menggunakan public UnityEvent
     }
 
     public void AddScore()
@@ -21,6 +22,7 @@ public class Score : MonoBehaviour
     private void OnDisable()
     {
         /*tanda -= yang mau UnListen*/
-        objectDeteksiInput.inputEvent -= AddScore;
+        //objectDeteksiInput.inputEvent -= AddScore;
+        //objectDeteksiInput.inputEvent.RemoveListener(AddScore); //jika menggunakan public UnityEvent
     }
 }
