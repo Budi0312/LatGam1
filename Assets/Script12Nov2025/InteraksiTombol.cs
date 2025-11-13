@@ -5,7 +5,10 @@ public class InteraksiTombol : MonoBehaviour
 {
     public SquareMove12B squareMove12B;
     public TMP_Text TeksSkor;
-     public int skor;
+    public TMP_Text KurangNyawa;
+    public int skor;
+    public int nyawa;
+
    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
