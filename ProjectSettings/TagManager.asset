@@ -8,6 +8,7 @@ TagManager:
   - Bola
   - Wall
   - Kotak
+  - Lantai
   layers:
   - Default
   - TransparentFX
